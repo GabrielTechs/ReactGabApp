@@ -1,14 +1,15 @@
 import React from "react";
 import "./App.css";
 
+import IntroSlider from "./components/IntroSlider/IntroSlider";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div style={{ padding: "50px", background: "cyan" }}>
-          <h1>Hello!</h1>
-        </div>
-      </header>
+      <IntroSlider />
+      <div style={{ padding: "50px", background: "cyan" }}>
+        <h1>Hello!</h1>
+      </div>
     </div>
   );
 }
