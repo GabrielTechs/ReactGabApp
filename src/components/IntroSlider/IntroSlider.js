@@ -20,43 +20,45 @@ class IndroSlider extends Component {
       cssEase: "linear",
     };
     return (
-      <div className="Intro-slider">
-        <h1>Hello</h1>
-        <h3>Something else</h3>
+      <div className="intro-slider">
+        <div className="intro-slider__text">
+          <h1>Hello</h1>
+          <h3>Something else</h3>
+        </div>
         <Slider {...settings}>
           <Fragment>
             <img
               src="https://picsum.photos/1920/1080"
               alt=""
-              className="Intro-slider__img"
+              className="intro-slider__img"
             ></img>
           </Fragment>
           <Fragment>
             <img
               src="https://picsum.photos/1920/1081"
               alt=""
-              className="Intro-slider__img"
+              className="intro-slider__img"
             ></img>
           </Fragment>
           <Fragment>
             <img
               src="https://picsum.photos/1920/1082"
               alt=""
-              className="Intro-slider__img"
+              className="intro-slider__img"
             ></img>
           </Fragment>
           <Fragment>
             <img
               src="https://picsum.photos/1920/1083"
               alt=""
-              className="Intro-slider__img"
+              className="intro-slider__img"
             ></img>
           </Fragment>
           <Fragment>
             <img
               src="https://picsum.photos/1920/1084"
               alt=""
-              className="Intro-slider__img"
+              className="intro-slider__img"
             ></img>
           </Fragment>
         </Slider>

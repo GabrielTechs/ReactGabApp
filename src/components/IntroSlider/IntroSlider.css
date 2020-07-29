@@ -1,86 +1,75 @@
-.Intro-slider {
+.intro-slider {
   width: 100%;
   height: 95vh;
   background-size: cover;
   margin-bottom: 50px;
 }
 
-.Intro-slider h1 {
+.intro-slider__text {
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  z-index: 100;
+}
+.intro-slider__text h1 {
   font-size: 5rem;
   color: var(--primary-color, teal);
-  position: absolute;
-  top: 150px;
-  left: 70%;
-  z-index: 100;
-  transform: translate(-50%, -50%);
 }
-.Intro-slider h3 {
+.intro-slider__text h3 {
   font-size: 3rem;
   color: var(--secondary-color, darkturquoise);
-  position: absolute;
-  top: 200px;
-  left: 68%;
-  z-index: 100;
-  transform: translate(-50%, -50%);
+  transform: translateX(-30px);
 }
 
-.Intro-slider__img {
+.intro-slider__img {
   width: 100%;
   height: 95vh;
 }
 
-.Intro-slider .slick-dots li button:before {
+.intro-slider .slick-dots li button:before {
   color: var(--primary-color, teal);
   font-size: 12px;
 }
-
-.Intro-slider .slick-dots li.slick-active button:before {
+.intro-slider .slick-dots li.slick-active button:before {
   color: var(--secondary-color, darkturquoise);
 }
 
-.Intro-slider .slick-arrow {
+.intro-slider .slick-arrow {
   z-index: 100;
   width: 40px;
   transition: all 0.3s ease 0s;
 }
-
-.Intro-slider .slick-arrow:before {
+.intro-slider .slick-arrow:before {
   color: var(--secondary-color, darkturquoise);
   opacity: 0.8;
   border-radius: 50%;
   transition: 0.6s;
   font-size: 40px;
 }
-.Intro-slider .slick-prev {
+.intro-slider .slick-prev {
   left: 8px;
 }
-.Intro-slider .slick-next {
+.intro-slider .slick-next {
   right: 8px;
 }
-.Intro-slider .slick-prev:hover,
-.Intro-slider .slick-next:hover {
+.intro-slider .slick-prev:hover,
+.intro-slider .slick-next:hover {
   transform: translateY(-15px);
 }
 
 @media only screen and (max-width: 700px) {
-  .Intro-slider h1 {
-    font-size: 5rem;
-    top: 150px;
+  .intro-slider__text {
     left: 45%;
-  }
-  .Intro-slider h3 {
-    font-size: 3rem;
-    top: 200px;
-    left: 40%;
   }
 }
 @media only screen and (max-width: 400px) {
-  .Intro-slider h1 {
-    font-size: 4rem;
-    left: 50%;
+  .intro-slider__text {
+    left: 30%;
   }
-  .Intro-slider h3 {
-    font-size: 2rem;
-    left: 45%;
+  .intro-slider__text h3 {
+    font-size: 4rem;
+  }
+  .intro-slider__text h3 {
+    font-size: 2.5rem;
   }
 }
