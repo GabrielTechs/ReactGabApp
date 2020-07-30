@@ -2,11 +2,23 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./NavigationBar.css";
+import MobileNavBar from "../MobileNavigationBar/MobileNavigationBar";
+import HamburgerButton from "../MobileNavigationBar/HamburgerButton";
 
 class NavigationBar extends Component {
+  state = {
+    mobileNavBarOpen: false,
+  };
+
+  hamburgerButtonClickHandler = () => {
+    this.setState((prevState) => {
+      return { mobileNavBarOpen: !prevState.mobileNavBarOpen };
+    });
+  };
+
   render() {
     return (
-      <header className="navigation-bar">
+      <div className="navigation-bar">
         <nav className="navigation-bar__navigation">
           <div className="navigation-bar__logo">
             <a href="/">Logo</a>
@@ -30,8 +42,12 @@ class NavigationBar extends Component {
               </li>
             </ul>
           </div>
+          <div>
+            <HamburgerButton click={this.hamburgerButtonClickHandler} />
+          </div>
+          <MobileNavBar show={this.state.mobileNavBarOpen} />
         </nav>
-      </header>
+      </div>
     );
   }
 }
