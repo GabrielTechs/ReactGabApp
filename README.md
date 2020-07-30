@@ -1,2 +1,2 @@
 # ReactGabApp
-A web app using diferent styles to practice with react.
+A web app using diferent styles with react.
