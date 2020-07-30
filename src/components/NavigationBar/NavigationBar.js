@@ -11,7 +11,7 @@ class NavigationBar extends Component {
           <div className="navigation-bar__logo">
             <a href="/">Logo</a>
           </div>
-          <div className="spacer"></div>
+          <div className="navigation-bar__spacer"></div>
           <div className="navigation-bar__list">
             <ul>
               <li>
