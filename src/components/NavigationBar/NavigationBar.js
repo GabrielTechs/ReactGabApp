@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./NavigationBar.css";
 import MobileNavBar from "../MobileNavigationBar/MobileNavigationBar";
 import HamburgerButton from "../MobileNavigationBar/HamburgerButton";
+import Backdrop from "../Backdrop/Backdrop";
 
 class NavigationBar extends Component {
   state = {
@@ -16,7 +17,16 @@ class NavigationBar extends Component {
     });
   };
 
+  backdropClickHandler = () => {
+    this.setState({ mobileNavBarOpen: false });
+  };
+
   render() {
+    let backdrop;
+    if (this.state.mobileNavBarOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
+    }
+
     return (
       <div className="navigation-bar">
         <nav className="navigation-bar__navigation">
@@ -46,6 +56,7 @@ class NavigationBar extends Component {
             <HamburgerButton click={this.hamburgerButtonClickHandler} />
           </div>
           <MobileNavBar show={this.state.mobileNavBarOpen} />
+          {backdrop}
         </nav>
       </div>
     );
