@@ -18,14 +18,14 @@ const Services = () => {
           <HighlightCard
             highlightCard="borderShadow"
             highlightHeader="BusinessDev"
-            highlightDescription="Dolor cupidatat exercitation nulla labore id minim laborum. Ipsum eu quis tempor ad amet deserunt culpa cillum est ad esse excepteur pariatur ex. Eiusmod aliquip minim deserunt sit."
+            highlightDescription="Anim id sunt adipisicing duis. Esse in reprehenderit exercitation est esse do minim ut. Ad fugiat duis sunt dolore dolor nulla magna esse. Pariatur occaecat consectetur minim officia do tempor velit elit. Lorem amet duis minim ullamco quis incididunt cillum fugiat ad laboris. Dolore deserunt quis et veniam enim reprehenderit ut eiusmod nisi eu laborum minim non in. Nostrud ea ullamco commodo voluptate nulla ea veniam. Cillum ipsum laborum aliquip laboris eiusmod tempor nulla voluptate elit minim nisi elit nisi. Sunt dolor elit duis cillum enim nisi in deserunt."
           />
         </div>
         <div className="service--odd">
           <HighlightCard
             highlightCard="borderShadow"
             highlightHeader="MobileDev"
-            highlightDescription="Et amet sunt labore sint elit. Ipsum nostrud nostrud Lorem occaecat sint. Enim qui ex aliquip ullamco."
+            highlightDescription="Et amet sunt labore sint elit. Ipsum nostrud nostrud Lorem occaecat sint. Enim qui ex aliquip ullamco. Voluptate consectetur sit commodo reprehenderit enim pariatur et. Nostrud veniam sit enim ad aliquip. Qui exercitation mollit ullamco proident consectetur."
           />
         </div>
       </div>
