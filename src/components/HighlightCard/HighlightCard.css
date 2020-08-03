@@ -1,0 +1,25 @@
+.highlight-card {
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+.highlight-card__shadow {
+  box-shadow: 4px 4px 8px var(--text-dark-color, black);
+}
+.highlight-card__border {
+  border: 2px solid var(--primary-color, teal);
+}
+.highlight-card__border--right {
+  border-right: 2px solid var(--primary-color, teal);
+}
+
+.highlight-card__title {
+  color: var(--secondary-color, darkturquoise);
+  font-size: 2rem;
+}
+
+.highlight-card__description {
+  color: var(--text-dark-color, black);
+  font-size: 1rem;
+  margin: 5px 0;
+}
