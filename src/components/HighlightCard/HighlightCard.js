@@ -4,9 +4,7 @@ import "./HighlightCard.css";
 
 const HighlightCard = (props) => {
   let highlightCard = "highlight-card";
-  if (props.highlightCard == "borders") {
-    highlightCard = `${highlightCard} highlight-card__border`;
-  } else if (props.highlightCard == "borderRight") {
+  if (props.highlightCard == "borderRight") {
     highlightCard = `${highlightCard} highlight-card__border--right`;
   } else if (props.highlightCard == "borderShadow") {
     highlightCard = `${highlightCard} highlight-card__border--right highlight-card__shadow`;
