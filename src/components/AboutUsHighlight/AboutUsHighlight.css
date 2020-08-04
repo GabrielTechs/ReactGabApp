@@ -1,5 +1,6 @@
 .aboutus-highlight {
   padding: 20px;
+  margin-bottom: 50px;
   text-align: center;
   background: rgb(11, 79, 108);
   background: linear-gradient(
@@ -28,6 +29,8 @@
     flex-direction: column;
   }
   .aboutus-highlight__card {
-    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid ghostwhite;
   }
 }

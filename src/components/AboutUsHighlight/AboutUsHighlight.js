@@ -16,7 +16,7 @@ const AboutUsHighlight = () => {
         <div className="aboutus-highlight__card">
           <HighlightCard highlightHeader="99%" highlightDescription="Success" />
         </div>
-        <div className="aboutus-highlight__card">
+        <div className="aboutus-highlight__card--last">
           <HighlightCard
             highlightHeader="1000+"
             highlightDescription="Projects"
