@@ -1,0 +1,26 @@
+.aboutus-highlight {
+  padding: 20px;
+  text-align: center;
+}
+.aboutus-highlight h1 {
+  font-size: 5rem;
+  color: black;
+}
+.aboutus-highlight h3 {
+  font-size: 4rem;
+  color: black;
+}
+
+.aboutus-highlight__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 700px) {
+  .aboutus-highlight__container {
+    flex-direction: column;
+  }
+  .aboutus-highlight__card {
+    margin-top: 25px;
+  }
+}
