@@ -7,6 +7,7 @@ import IntroSlider from "./components/IntroSlider/IntroSlider";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Services from "./components/Services/Services";
 import AboutUsHighlight from "./components/AboutUsHighlight/AboutUsHighlight";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <IntroSlider />
       <Services />
       <AboutUsHighlight />
+      <Footer />
     </div>
   );
 }
