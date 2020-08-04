@@ -1,0 +1,36 @@
+.aboutus-highlight {
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  background: rgb(11, 79, 108);
+  background: linear-gradient(
+    180deg,
+    rgba(11, 79, 108, 1) 0%,
+    rgba(6, 135, 176, 1) 70%,
+    rgba(1, 186, 239, 1) 100%
+  );
+}
+.aboutus-highlight h1 {
+  font-size: 5rem;
+  color: ghostwhite;
+}
+.aboutus-highlight h3 {
+  font-size: 4rem;
+  color: ghostwhite;
+}
+
+.aboutus-highlight__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 700px) {
+  .aboutus-highlight__container {
+    flex-direction: column;
+  }
+  .aboutus-highlight__card {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid ghostwhite;
+  }
+}
