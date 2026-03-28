@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^0.14.0 || ^15.0.1 || ^16.0.0",
     "react-dom": "^0.14.0 || ^15.0.1 || ^16.0.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-slick": "^0.27.1",
     "slick-carousel": "^1.8.1"
   },
